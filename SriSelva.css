@@ -1,0 +1,31 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+th, td {
+  padding: 20px;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 22px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: black;}
+.bg {
+  /* The image used */
+  background-image: url("bgimage2.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
